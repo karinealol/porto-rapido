@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: #1B4965;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    margin: 15px 0;
+    color: #1B4965;
+    text-decoration: underline;
+}
+
+.divider {
+    margin: 15px 0;
+    color: #666;
+}
+
+.register {
+    color: #1B4965;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
