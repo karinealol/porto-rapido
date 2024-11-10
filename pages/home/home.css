@@ -1,0 +1,101 @@
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    background-color: #1B4965;
+    color: white;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.header-content h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.notification-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.la-bell {
+    color: white;
+    font-size: 20px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+    margin-top: -20px;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.menu-card span {
+    font-size: 18px;
+    color: #333;
+}
+
+.menu-card i, .footer-btn i {
+    font-size: 27px;
+    color: #1B4965;
+}
+
+.footer {
+    background-color: #eaeaea;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #eee;
+}
+
+.footer-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.footer-btn:hover {
+    background-color: #eee;
+    border-radius: 50%;
+}
